@@ -1,0 +1,313 @@
+body{	 
+ box-sizing: border-box;
+ background-color: #f7f4f4;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='0.6' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='rotate(278 1000 750) scale(34.9) translate(-971.35 -728.51)'%3E%3Cuse fill='%23fcfcfc' href='%23s' y='2'/%3E%3Cuse fill='%23fcfcfc' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s'/%3E%3Cuse fill='%23f7f7f7' href='%23s' x='2'/%3E%3Cuse fill='%23f7f7f7' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='rotate(278 1000 750) scale(34.9) translate(-971.35 -728.51)'%3E%3Cg fill='%23f5f5f5'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='rotate(278 1000 750) scale(34.9) translate(-971.35 -728.51)'%3E%3Cg fill='%23f5f5f5'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='rotate(278 1000 750) scale(34.9) translate(-971.35 -728.51)'%3E%3Cg fill='%23f2f2f2'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='rotate(278 1000 750) scale(34.9) translate(-971.35 -728.51)'%3E%3Cg fill='%23ffffff'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23efefef'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='rotate(278 1000 750) scale(34.9) translate(-971.35 -728.51)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='rotate(278 1000 750) scale(34.9) translate(-971.35 -728.51)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='rotate(278 1000 750) scale(34.9) translate(-971.35 -728.51)'%3E%3Cg fill='%23F60'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+    }
+.container-fluid{width: 100%;}
+::selection{background-color:black;color:white}
+/* start scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f2184f; 
+  border-radius:50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #202c45; 
+  
+}
+/*  end scrollbar */
+/*navbar*/
+.navbar{
+    border-bottom:1px solid #f2184f;
+
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	color:white;
+	margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+	 }
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color:#fdfdfd;
+	 background-color:#f2184f;
+     margin-left: 10px;
+	 }
+.bg{background-color:#1a0b8d;}
+.navbar-brand img{width: 90px;margin-left:10px;}
+.navbar-nav .nav-item .active{text-transform: capitalize;font-weight: bold;padding: 10px;font-size: 16px;}
+strong{color: white;}
+strong::after{content:"Armed Forces";position: relative;top: 21px;right:120px;color: white;}
+strong span{color: #f2184f;}
+.navbar-toggler{position: absolute;
+    right: 10px;
+    top: 40px;
+}
+
+.navbar .navbar-nav .nav-item.dropdown-menu {
+    display: block;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+/* End  navbar*/
+/* start carousel*/
+
+.carousel-item img{width:100%;height:450px;position: relative;top:50px;margin-top:60px;}
+.carousel-indicators {color:white;}
+
+.carousel-caption{color:rgb(238, 232, 232);text-transform: capitalize;border-radius: 10px;
+    text-shadow: -4px 2px 2px #f2184f;
+ }
+
+
+/* End carousel*/
+/* start features*/
+.features{color:#1a0b8d;font-family:Arial, Helvetica, sans-serif;text-transform: capitalize;margin-top:30px;position: relative;}
+.features h1::after{
+    content: "";
+    height: 6px;
+    width: 100px;
+    margin: auto;
+    background-color:#1a0b8d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:3px}
+
+/* End features*/
+
+/* start  courses */
+
+.our-services__card{border: 1px solid #ccc;border-radius: 10px;text-transform: capitalize;
+    height:320px;margin-bottom: 20px;padding: 10px;}
+    .our-services__card .price{background-color: #17bebe;font-weight: bold;}
+    .course{padding-bottom: 10px;position: relative;margin-top:50px}
+    .course::after{
+content: "";
+height: 6px;
+width: 100px;
+margin: auto;
+background-color: #f2184f;
+position: absolute;
+left: 0;
+right: 0;
+bottom: 3px}
+
+
+/* end  courses */
+
+/* start personal */
+.department{background: linear-gradient(to left, #9dcbd282, #f4d6d6d1);padding: 10px;margin-top: 30px;}
+.dep1 img{padding:20px}
+.showmore{
+    border:1px solid rgb(75, 128, 228);
+border-radius: 5px ;
+padding: 10px;
+margin: 40px;
+text-transform: capitalize;
+font-weight: bold;
+background-color: blue;
+color: #f5f6ff;
+}
+
+
+
+
+
+
+
+
+
+.circles {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+  
+}
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(248, 55, 132, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+/* end personal */
+/* start teacher */
+.teacher{padding-bottom: 10px;position: relative;margin-top:50px;}
+
+.teacher::after{
+content: "";
+height: 6px;
+width: 100px;
+
+background-color: #f2184f;
+position: absolute;
+left: 50px;
+right: 0;
+bottom: 3px}
+
+/* end teacher */
+
+/* stary  review */
+.group {margin: 30px;}
+.group img{width: 450px;height: 150px;border: 2px solid #ccc;border-radius: 10px;}
+
+
+.img1{animation-duration: 1s;  animation-iteration-count: 2;  animation-delay: 4s;}
+.img2{animation-duration: 2s;  animation-iteration-count: 2;  animation-delay: 6s;}
+.img3{animation-duration: 3s;  animation-iteration-count: 2;  animation-delay: 8s;}
+
+/* end  review */
+/* start  footer */
+
+/*
+div.front{
+    background-image:url('images/bg1.jpg');
+    background-size:cover;
+    height: 600px;
+    }
+ div.back{background-color: rgb(0, 0, 0,0.9);height: 600px;}
+.one ul,.two ul,.six ul{list-style-type:none;}
+.one ul li{color:#a6a6a6;text-decoration:none;text-transform:capitalize;font-size:14px}
+.one,.two,.six{margin-top:50px;margin-left: 0;}
+.three img{width: 50px;height: 50px;}
+.one h4,.six h4{margin:0;color:white}
+.six ul li a {text-transform: capitalize;color:white;text-decoration: dashed;text-underline-offset: 10px;}
+.two ul li{color:#a6a6a6;text-decoration:none;text-transform:capitalize;font-size:14px}
+.two h4{margin:0;color:white}
+
+.four img{width: 60px;height: 60px;}
+.three .btn{padding:10px 20px 10px 20px ;background-color:white;color:red;margin:5px;border:1px solid white}
+.svg-inline--fa {color:#f2184f;padding-right:10px}
+    .four form{color: thistle;margin-bottom: 20px;}*/
+
+    .front{background-image: url('images/bg1.jpg');
+        background-size: cover;background-repeat: no-repeat;background-position: center;display: inline-block;position: relative;
+        height: 600px;}
+        
+        
+        
+        
+        .front::before{content:"";position:  absolute;
+        
+        top:0;
+        left: 0;
+        background-color: rgb(0, 0, 0,0.7);
+        width: 100%;
+        height: 100%;
+        
+        }
+  .one p,.one .svg-inline--fa{display: inline-block}     
+.institute {color:white;position: relative;font-weight: bold;font-size: 20px;margin-bottom:50px;}
+.institute span{color: #f2184f;}
+.institute::after{content: "Armed Forces";    position: relative;
+right: 241px;
+top: 24px;
+
+}
+        .front ul{list-style-type:none;}
+        .front ul li{color:#c2bfbf;text-decoration:none;text-transform:capitalize;font-size:14px;position: relative;}
+        .one,.two,.three{margin-top:50px;margin-left: 0;}
+        .one img{position: relative;}
+        .three img{width: 50px;height: 50px;}
+        .one h4,.three h4,.two h4{margin:0;color:white;position: relative;}
+        .front ul li a {text-transform: capitalize;color:#c2bfbf;text-decoration: dashed;text-underline-offset: 10px;position: relative;}
+        .svg-inline--fa {color:#f2184f;padding-right:10px;position: relative;}
+        
+        .picwform{margin:20px}
+        .four img{width: 60px;height: 60px;padding-bottom: 10px;}
+        .four .btn{padding:10px 20px 10px 20px ;background-color:white;color:red;margin:5px;border:1px solid white;position: relative;top:10px;left: 20px;}
+        .five form{color: thistle;position: relative;}
+
+
+
+
+footer{background-color:#141414;padding:20px;color:#666666;font-size: 16px;}
+.link{text-transform: capitalize;color: #6e6c6c;text-decoration: none;font-weight: bold;}
+.love{color: rgb(129, 98, 98);}
+.waller{color: #f2184f;font-size: 20px;}
+#myBtn:hover {
+   color: #f7f6f6;
+  }
+/* end  footer */
+
+/* start certificate */
+.certificate{width:65%;height:65%;margin:30px auto 30px auto;}

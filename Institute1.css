@@ -1,0 +1,326 @@
+
+body{overflow:auto; margin: 0; overflow: scroll;}
+.clearfix{clear:both}
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f2184f; 
+  border-radius:50px;
+ 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #202c45; 
+  
+}
+/*navbar*/
+.navbar{
+	background-color:#202c45;
+	border-bottom:1px solid #f2184f;
+position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+
+}
+ .navbar .navbar-nav{
+		list-style-type:none;
+		margin-left:auto;
+		padding: 10px;
+		}
+.navbar .navbar-nav .nav-item{margin-left:10px}
+.navbar .navbar-nav .nav-item .nav-link{
+	 display:block;
+	 color:#fff;
+	 font-size:16px;
+	 padding:10px 20px 10px 20px;
+	 text-decoration:none;
+	 text-align:center;
+	 text-transform:capitalize;
+	 }
+	 .navbar .navbar-nav .nav-item.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+ .navbar .navbar-nav .nav-item .nav-link:hover{
+	color:#fdfdfd;
+	 background-color:#f2184f;
+	 }
+.navbar .navbar-nav .nav-item .nav-link :active
+{
+	margin-right:200px;
+	background-color:#f2184f
+}
+
+.navbar-brand img{width:320px;height:60px;transition: transform .3s}
+.navbar-brand img:hover{transform: scale(1.3);}
+.dropdown{text-transform:capitalize}
+.dropdown a:hover{color:black}
+
+/* start carousel*/
+
+#demo.carousel-indicators{width:50px;height:50px;border-radius:60px;background-size:50px 50px;}
+
+.carousel-inner .carousel-item  img{
+	width:100%;
+	height:600px;
+	margin:10px 0 0 0;
+
+
+	}
+
+.carousel-caption .basicly{
+	border-left:3px solid #ff0047;
+		background-color:#202c45;
+		color:white;
+		margin-bottom:20px;
+        width:600px;
+		padding:20px;
+	     /*  animation:bounceInDown 3s linear 2s infinite alternate	*/
+		}
+		@keyframes bounceInDown{
+			
+			0%{margin-bottom:40px}
+			100%{margin-bottom:100px;}
+			
+		}
+		
+		.carousel-caption .end,.endly{
+	border-left:3px solid #ff0047;
+		background-color:#202c45;
+		color:white;
+		margin-bottom:20px;
+        width:600px;
+		padding:20px;
+		
+	     /*animation:bounceInDown 1s linear 1s infinite */
+		}
+		@keyframes bounceInDown{
+			
+			0%{margin-top:-2000px}
+			100%{margin-top:200px;}
+			
+		}
+		
+		.carousel-caption p{
+				font-size:20px;
+				padding:10px;
+				color:white;
+				font-weight:bold;
+				width:500px;
+				background-color:rgba(0,0,0,.8);
+			
+				}
+				
+		.arrow {
+			background-color:rgba(179,179,179,0.3);
+			color:white;
+			border-radius:50px;
+			width:70px;
+			height:70px;
+		}
+		.arrow .carousel-control-prev-icon{
+		padding:10px;
+		font-size:16px;
+		text-align:center
+		}
+		.arrow:hover {
+			background-image:url(team-students-completing-task-23-2147666610_orig.jpg);
+			background-size:cover;
+			color:white;
+			border-radius:50px;
+			width:70px;
+			height:70px;
+		}
+/* end carousel */
+
+/* start features */
+.container{width:100%;}
+.clearfix{clear:both;}
+		.features{
+		padding:50px 50px 30px 50px;
+		text-align:center;
+		text-transform:capitalize;
+		animation:slideInLeft;  animation-duration: 4s; animation-iteration-count:2;color:#525252
+		}
+		@keyframes slideInLeft{
+		  from{margin-left:-2000px}
+		  to{margin-left:100px}
+}
+			.clearfix a{text-align:center;color:#525252;text-transform:uppercase;font-family:'Open Sans', sans-serif;margin-left:30px}
+			.clearfix .web{float:left;margin:10px 50px 20px 60px;}
+			.clearfix .web i {display:inline-block}
+			/* end features */
+			
+
+
+
+/* start welcome */
+
+
+.WELCOME{height:500px;margin-top:20px}
+.WELCOME .haf,.nsf{float:left;display:inline;padding:100px 10px 30px 50px;}
+.WELCOME .nsf li{list-style:disc;line-height:1.5;padding:5px}
+
+.WELCOME .haf img{width:500px}
+.btn{background-color:#202c45;color:white;padding:5px;margin:10px}
+/* end welcome */
+
+
+
+.why div{float:left;margin:30px;}
+.why.not{padding:10px}
+
+		
+
+
+.card{float:left;margin:10px 20px  20px 10px}
+.card img{background-size:cover}
+.time {margin:2300px 500px 80px 500px;}
+.time p{background-color:orange;color:white;text-align:center;line-height:1.5;border-radius:10px;}
+/* start welcome */
+
+.clearfix{  clear: both;background-color:#363333;}
+.ro{margin:200px 0 20px 0;height:400px;padding-top:100px}
+.ro .raqm{float:left;margin:10px 60px 20px 90px;}
+.raqm h3{text-align:center;color:#525252}
+
+
+
+.our div{float:left;margin:20px 10px 10px 25px;background-color:#f5f5f5;border-bottom:2px solid #f2184f}
+.our h1{text-indent:30px;text-transform:uppercase}
+.our h1 span{color:#f2184f}
+
+.gallery img{width:300px;height:200px;margin:20px 10px 20px 20px}
+
+.gallery img:hover{background-color:rgba(0,0,0,0.5)}
+
+
+
+
+
+.container{width:100%;}
+div.asli{background-image:url(team-students-completing-task-23-2147666610_orig.jpg);overflow:hidden;background-size:cover;margin:0 -15px 0 -20px;}
+div.back{background-color:rgba(0,0,0,0.9);height:500px;margin-top:-15px;}
+.asli .one,.two,.three,.four,.five,.sex{float:left;margin:10px;}
+.asli h6{float:left;margin:10px;text-align:center;color:white}
+.asli ul{list-style-type:none;padding:10px}
+.asli ul li a{color:#a6a6a6;padding:5px}
+.asli .five{float:left;margin-top:-150px}
+footer {background-color:#141414;}
+
+footer .rel{background-color:#141414;padding:20px;text-indent:30px;color:#666666;float:left;width:100%}
+
+.scrollbutton{background-color:#121212;width:50px;text-align:center;padding:10px;font-size:18px;float:right;margin-top:-60px;z-index:10}
+.scrollbutton .fas{color:white;font-size:20px;}
+footer.scrollbutton :hover{background-color:red}
+/*
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+*/
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
